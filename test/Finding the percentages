@@ -1,0 +1,26 @@
+Test case1:
+input:
+
+3
+Krishna 67 68 69
+Arjun 70 98 63
+Malika 52 56 60
+Malika
+
+output:
+56.00
+
+Expected output:
+56.00
+
+Test case2:
+input:
+2
+sreekanth 98 63
+reddy 68 69
+
+output:
+80.50
+
+Expected output:
+80.50

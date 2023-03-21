@@ -1,0 +1,39 @@
+Assignment_1
+lists
+steps:
+The first line contains an integer, denoting the number of commands.
+insert i e-inserts value e at index i
+print-print list
+remove e-removes e from the list
+append e-adds e to the list
+sort-sorted the list
+pop- remove element at the end
+reverse-reverse the list
+print-prints the list
+
+Input Format:
+The first line contains an integer,n , denoting the number of commands.
+Each line i of the n subsequent lines contains one of the commands described above.
+
+Constraints:
+The elements added to the list must be integers.
+
+Output Format:
+For each command of type print, print the list on a new line.
+
+Assignment_2
+Finding the percentage
+
+For a list of students. Print the average of the marks array for the
+student name provided, showing 2 places after the decimal.
+
+Input Format:
+
+The first line contains the integer , the number of students' records. The next
+lines contain the names and marks obtained by a student, each value separated by a space. The final
+line contains query_name, the name of a student to query.
+
+Output Format:
+
+Print one line: The average of the marks obtained by the particular student correct to 2 decimal
+places.
