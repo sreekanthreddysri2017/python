@@ -1,0 +1,10 @@
+Test case1:
+input:
+abracadabra
+5 k
+
+output:
+abrackdabra
+
+Expected output:
+abrackdabra

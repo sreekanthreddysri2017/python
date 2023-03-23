@@ -1,0 +1,10 @@
+Test case1:
+input:
+5
+2 3 6 6 5
+
+output:
+5
+
+Expected output:
+5

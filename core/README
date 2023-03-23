@@ -37,3 +37,107 @@ Output Format:
 
 Print one line: The average of the marks obtained by the particular student correct to 2 decimal
 places.
+
+Assignment_3:
+
+Finding runner up score
+
+
+Given the participants' score sheet for your University Sports Day, you are required
+to find the runner-up score. You are given n scores. Store them in a list and find the score of the
+runner-up.
+
+Input Format:
+
+The first line contains n. The second line contains an array A[] of n integers each separated
+by a space.
+
+Output Format:
+Print the runner-up score.
+
+Assignment_4:
+Mutations:
+
+We have seen that lists are mutable (they can be changed), and tuples are immutable
+(they cannot be changed).
+Let's try to understand this with an example.
+You are given an immutable string, and you want to make changes to it.
+
+
+Task
+Read a given string, change the character at a given index and then print the modified string.
+
+Input:
+The first line contains a string,string .
+The next line contains an integer position, the index location and a string character, separated
+by a space.
+
+output:
+print the altered string
+
+Assignment_5:
+
+Merge the tools:
+Complete the merge_the_tools function in the editor below.
+
+merge_the_tools has the following parameters:
+
+string s: the string to analyze
+int k: the size of substrings to analyze
+
+Prints
+
+Print each subsequence on a new line. There will be n/k of them. No return value is expected.
+
+Assignment_6:
+Text alignment:
+In Python, a string of text can be aligned left, right and center
+
+.ljust(width)
+
+This method returns a left aligned string of length width.
+.center(width)
+
+This method returns a centered string of length width.
+.center(width)
+
+This method returns a centered string of length width.
+Input Format
+
+A single line containing the thickness value for the logo.
+Output Format
+
+Output the desired logo.
+
+Assignment_7:
+String formatting:
+Given an integer,n , print the following values for each integer i  from 1 to n :
+
+Decimal
+Octal
+Hexadecimal (capitalized)
+Binary
+
+Function Description
+
+Complete the print_formatted function in the editor below.
+
+print_formatted has the following parameters:
+
+int number: the maximum value to print
+
+Prints
+
+The four values must be printed on a single line in the order specified above for each i from
+1 to number .Each value should be space-padded to match the width of the binary value of number and
+the values should be separated by a single space.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Test case1:
+input:
+AABCAAADA
+3
+
+output:
+AB
+CA
+AD
+
+Expected output:
+AB
+CA
+AD
