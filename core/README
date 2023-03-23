@@ -132,7 +132,22 @@ The four values must be printed on a single line in the order specified above fo
 1 to number .Each value should be space-padded to match the width of the binary value of number and
 the values should be separated by a single space.
 
+Assignment_8
+calendar module:
+The calendar module allows you to output calendars and provides additional useful functions for them.
 
+class calendar.TextCalendar([firstweekday])
+
+This class can be used to generate plain text calendars.
+
+Input Format:
+
+A single line of input containing the space separated month, day and year, respectively,
+in MM DD YYYY   format.
+
+Output Format:
+
+Output the correct day in capital letters.
 
 
 
