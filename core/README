@@ -150,9 +150,141 @@ Output Format:
 Output the correct day in capital letters.
 
 
+Assignment_9:
+collections.namedtuple()
+Basically, named tuples are easy to create, lightweight object types.
+They turn tuples into convenient containers for simple tasks.
+With named tuples, you don’t have to use integer indices for accessing members of a tuple.
+
+Input Format:
+
+The first line contains an integer N, the total number of students.
+The second line contains the names of the columns in any order.
+The next N lines contains the marks, id's,  name and class, under their respective column names.
+
+Output Format:
+
+Print the average marks of the list corrected to 2 decimal places.
+
+Assignment_10:
+Time delta:
+When users post an update on social media,such as a URL, image, status update etc., other users in their network are able to view this new post on their news feed. Users can also see exactly when the post was published, i.e, how many hours, minutes or seconds ago.
+
+Since sometimes posts are published and viewed in different time zones, this can be confusing. You are given two timestamps of one such post that a user can see on his newsfeed in the following format:
+
+Day dd Mon yyyy hh:mm:ss +xxxx
+
+Here +xxxx represents the time zone. Your task is to print the absolute difference (in seconds) between them.
+
+Input Format:
+
+The first line contains T, the number of testcases.
+Each testcase contains  2 lines, representing time t1 and time t2.
+
+Output Format:
+When users post an update on social media,such as a URL, image, status update etc., other users in their network are able to view this new post on their news feed. Users can also see exactly when the post was published, i.e, how many hours, minutes or seconds ago.
+
+Since sometimes posts are published and viewed in different time zones, this can be confusing. You are given two timestamps of one such post that a user can see on his newsfeed in the following format:
+
+Day dd Mon yyyy hh:mm:ss +xxxx
+
+Here +xxxx represents the time zone. Your task is to print the absolute difference (in seconds) between them.
+
+Input Format
+
+The first line contains , the number of testcases.
+Each testcase contains  lines, representing time  and time .
+
+Constraints
+
+Input contains only valid timestamps
+.
+Output Format
+
+Print the absolute difference(t1-t2)  in seconds.
+
+Assignment_11:
+Floor, ceil and rint:
+floor:
+The tool floor returns the floor of the input element-wise.
+The floor of x is the largest integer i  where i<=x.
+
+ceil:
+The tool ceil returns the ceiling of the input element-wise.
+The ceiling of x is the smallest integer i where i>=x.
+
+rint:
+The rint tool rounds to the nearest integer of input element-wise.
+
+Input Format:
+
+A single line of input containing the space separated elements of array A.
+
+Output Format:
+
+On the first line, print the floor of A.
+On the second line, print the  ceil of A.
+On the third line, print the rint of A.
+
+Assignment_12:
+Min and Max:
 
 
+min:
 
+The tool min returns the minimum value along a given axis.
+By default, the axis value is None. Therefore, it finds the minimum over all the
+dimensions of the input array.
 
+Max:
+
+The tool max returns the maximum value along a given axis.
+By default, the axis value is None. Therefore, it finds the maximum over all the dimensions of
+the input array.
+
+Task:
+
+You are given a 2-D array with dimensions NXM.
+Your task is to perform the min function over axis i and then find the max of that.
+
+Input Format:
+
+The first line of input contains the space separated values of N and M .
+The next N lines contains M space separated integers.
+
+Output Format:
+
+Compute the min along axis 1 and then print the max of that result.
+
+Assignment_13:
+Linear algebra:
+
+The NumPy module also comes with a number of built-in routines for linear algebra calculations.
+These can be found in the sub-module linalg.
+
+linalg.det:
+
+The linalg.det tool computes the determinant of an array.
+
+linalg.eig:
+
+The linalg.eig computes the eigenvalues and right eigenvectors of a square array.
+
+linalg.inv:
+
+The linalg.inv tool computes the (multiplicative) inverse of a matrix.
+Task:
+
+You are given a square matrix A with dimensions NXN. Your task is to find the determinant.
+Note: Round the answer to 2 places after the decimal.
+
+Input Format:
+
+The first line contains the integer N.
+The next N lines contains the N space separated elements of array A .
+
+Output Format:
+
+Print the determinant of A.
 
 
