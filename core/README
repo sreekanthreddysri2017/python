@@ -193,20 +193,19 @@ You are given two timestamps of one such post that a user can see on his newsfee
 following format:
 
 Day dd Mon yyyy hh:mm:ss +xxxx
-
 Here +xxxx represents the time zone. Your task is to print the absolute difference (in seconds)
 between them.
 
-Input Format
+Input Format:
 
 The first line contains , the number of testcases.
 Each testcase contains  lines, representing time  and time .
 
-Constraints
+Constraints:
 
 Input contains only valid timestamps
 .
-Output Format
+Output Format:
 
 Print the absolute difference(t1-t2)  in seconds.
 
