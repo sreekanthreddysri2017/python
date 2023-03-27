@@ -1,0 +1,15 @@
+Test case:
+Input:
+4
+bcdef
+abcdefg
+bcde
+bcdef
+
+Output:
+3
+2 1 1
+
+Expected output:
+3
+2 1 1

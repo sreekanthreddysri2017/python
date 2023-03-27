@@ -168,15 +168,17 @@ Print the average marks of the list corrected to 2 decimal places.
 
 Assignment_10:
 Time delta:
-When users post an update on social media,such as a URL, image, status update etc., other users in their network are able to view this new post on their news feed. 
-Users can also see exactly when the post was published, i.e, how many hours, minutes or seconds ago.
-
-Since sometimes posts are published and viewed in different time zones, this can be confusing. You are given two timestamps of one such post that a user can see 
-on his newsfeed in the following format:
+When users post an update on social media,such as a URL, image, status update etc., other users in
+their network are able to view this new post on their news feed. Users can also see exactly when
+the post was published, i.e, how many hours, minutes or seconds ago.Since sometimes posts are
+published and viewed in different time zones, this can be confusing. You are given two
+timestamps of one such post that a user can see on his newsfeed in the following
+format:
 
 Day dd Mon yyyy hh:mm:ss +xxxx
 
-Here +xxxx represents the time zone. Your task is to print the absolute difference (in seconds) between them.
+Here +xxxx represents the time zone. Your task is to print the absolute difference (in seconds)
+between them.
 
 Input Format:
 
@@ -293,4 +295,133 @@ Output Format:
 
 Print the determinant of A.
 
+Assignment_14:
+No idea problem:
 
+There is an array of n integers. There are also 2 disjoint sets, A and B, each containing m integers.
+You like all the integers in set A and dislike all the integers in set B. Your initial happiness is 0.
+For each i integer in the array, if i available in A, you add 1 to your happiness. If ,
+i available in B you add -1 to your happiness.Otherwise, your happiness does not change.
+Output your final happiness at the end.
+
+Note: Since A and B are sets, they have no repeated elements. However, the array might contain
+duplicate elements.
+
+Input Format:
+
+The first line contains integers n and m separated by a space.
+The second line contains n integers, the elements of the array.
+The third and fourth lines contain m integers, A and B, respectively.
+
+Output Format:
+
+Output a single integer, your total happiness.
+
+Explanation:
+
+You gain 1 unit of happiness for elements 3 and 1 in set A . You lose 1 unit for 5 in set B.
+The element 7 in set B does not exist in the array so it is not included in the calculation.
+
+Hence, the total happiness is 2-1=1.
+
+Assignment_15:
+word order:
+
+You are given n words. Some words may repeat. For each word, output its number of occurrences.
+The output order should correspond with the input order of appearance of the word. See the
+sample input/output for clarification.
+
+Note: Each input line ends with a "\n" character.
+
+Input Format:
+
+The first line contains the integer,n .
+The next n lines each contain a word.
+
+Output Format:
+
+Output 2 lines.
+On the first line, output the number of distinct words from the input.
+On the second line, output the number of occurrences for each distinct word according to their
+appearance in the input.
+
+Explanation:
+
+There are  distinct words. Here, "bcdef" appears twice in the input at the first and last positions.
+The other words appear once each. The order of the first appearances are "bcdef", "abcdefg" and
+"bcde" which corresponds to the output.
+
+Assignment_16:
+piling up:
+
+There is a horizontal row of n cubes. The length of each cube is given. You need to create a new
+vertical pile of cubes. The new pile should follow these directions: if cube[i] is on top of cube[j]
+then side length[j]>=side length[i].When stacking the cubes, you can only pick up either the leftmost
+or the rightmost cube each time.Print Yes if it is possible to stack the cubes. Otherwise, print No.
+
+Input Format:
+
+The first line contains a single integer T, the number of test cases.
+For each test case, there are 2 lines.
+The first line of each test case contains n, the number of cubes.
+The second line contains n space separated integers, denoting the sideLengths of each cube in
+that order.
+
+Output:
+For each test case, output a single line containing either Yes or No.
+
+Explanation:
+
+In the first test case, pick in this order: left -4 , right - 4, left -3 , right -3 , left - 2,
+right - 1.In the second test case, no order gives an appropriate arrangement of vertical cubes.3
+will always come after either 1 or 2.
+
+Assignment_17:
+iterables and iterators:
+
+The itertools module standardizes a core set of fast, memory efficient tools that are useful by
+themselves or in combination. Together, they form an iterator algebra making it possible to
+construct specialized tools succinctly and efficiently in pure Python.
+
+Input Format:
+
+The input consists of three lines. The first line contains the integer N, denoting the length of
+the list. The next line consists of N space-separated lowercase English letters, denoting the
+elements of the list.
+The third and the last line of input contains the integer K, denoting the number of indices to
+be selected.
+
+Output Format:
+
+Output a single line consisting of the probability that at least one of the K indices selected
+contains the letter:'a'.
+
+Note: The answer must be correct up to 3 decimal places.
+
+Assignment_18:
+validate list of email addresses:
+
+You are given an integer N followed by N email addresses. Your task is to print a list containing
+only valid email addresses in lexicographical order.
+
+
+Valid email addresses must follow these rules:
+
+It must have the username@websitename.extension format type.
+The username can only contain letters, digits, dashes and underscores [a-z],[A-Z],[0-9],[_-] .
+The website name can only have letters and digits[a-z],[A-Z],[0-9] .
+The extension can only contain letters [a-z],[A-Z] .
+The maximum length of the extension is 3.
+
+Constraints:
+
+Each line is a non-empty string
+
+Input Format:
+
+The first line of input is the integer N, the number of email addresses.
+N lines follow, each containing a string.
+
+output Format:
+
+It returns the valid email addresses

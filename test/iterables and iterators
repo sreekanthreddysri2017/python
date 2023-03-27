@@ -1,0 +1,11 @@
+Test case:
+Input:
+4
+a a c d
+2
+
+Output:
+0.8333
+
+Expected Output:
+0.8333

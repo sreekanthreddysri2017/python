@@ -1,0 +1,12 @@
+Test case:
+Input:
+3
+lara@hackerrank.com
+brian-23@hackerrank.com
+britts_54@hackerrank.com
+
+Output:
+['brian-23@hackerrank.com', 'britts_54@hackerrank.com', 'lara@hackerrank.com']
+
+Expected Output:
+['brian-23@hackerrank.com', 'britts_54@hackerrank.com', 'lara@hackerrank.com']
